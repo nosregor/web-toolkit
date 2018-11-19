@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400, 700");
+
+body {
+  /* margin: 0; */
+  min-height: 100vh;
+  font-family: "Fira Mono", monospace;
+  margin: 0 auto;
+  max-width: 960px;
+  /* padding: 0px 1.0875rem 1.45rem; */
+  /* padding-top: 0; */
+  /* margin-bottom: 50px; */
+
+}
+
+section {
+  margin-bottom: 80px;
+}
+h5 {
+  color: #25262E;
+  font-weight: 700
+}
+p{
+  color: #8C97A3
+}
+.nav-link {
+  color: #03a87c
+}
+
+.banner {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center
+}
+small {
+  color: #03a87c
+}
+h2 {
+  margin: 80px 0;
+  color: #03a87c
+}
+
+ul {
+list-style-type: none;
+}
+
+ul > a {
+  color: #03a87c
+}
+
+
+ul > a:hover, a:focus {
+  color: #03a87c
+}
+
+a:hover, a:focus {
+  color: #25262E
+  /* text-decoration: underline; */
+}
+
+.header {
+  /* margin-bottom: 1.45rem; */
+}
+ 
+.title-section {
+  text-align: center
+}
+
+.change-color {
+  /* color: #03a87c; */
+}
+.tags {
+  display: flex;
+  align-items: center;
+}
+.tags .tag {
+padding: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #000;
+    background-color: #98ee99;
+  }
+
+@media (min-width: 576px) {
+  .card-columns {
+      column-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+      column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+      column-count: 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+      column-count: 3;
+  }
+}
+
+/* @media (min-width: 650px) and (max-width: 999px) {
+  .card {
+    height: 400px
+  }
+} */
