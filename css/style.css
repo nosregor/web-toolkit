@@ -57,20 +57,14 @@ ul > a:hover, a:focus {
 
 a:hover, a:focus {
   color: #25262E
-  /* text-decoration: underline; */
 }
 
-.header {
-  /* margin-bottom: 1.45rem; */
-}
  
 .title-section {
   text-align: center
 }
 
-.change-color {
-  /* color: #03a87c; */
-}
+
 .tags {
   display: flex;
   align-items: center;
