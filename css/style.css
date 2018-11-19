@@ -34,6 +34,15 @@ p{
   flex-direction: column;
   text-align: center
 }
+
+
+.nav-link {
+  color: #03a87c;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+
 small {
   color: #03a87c
 }
@@ -46,9 +55,7 @@ ul {
 list-style-type: none;
 }
 
-a, .nav-link {
-  color: #03a87c
-}
+
 
 ul > a {
   color: #03a87c
