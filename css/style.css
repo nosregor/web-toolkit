@@ -71,9 +71,8 @@ a:hover, a:focus {
 
  
 .title-section {
-  text-align: center
+  text-align: center;
 }
-
 
 .tags {
   display: flex;
