@@ -71,7 +71,8 @@ small {
 }
 h2 {
   margin: 80px 0;
-  color: #03a87c
+  color: #03a87c;
+  font-weight: bold;
 }
 
 
